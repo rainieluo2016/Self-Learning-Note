@@ -1,0 +1,12 @@
+# Non Maximum Suppression (NMS)
+
+[reference 1](https://learnopencv.com/non-maximum-suppression-theory-and-implementation-in-pytorch/)
+[reference 2](https://pyimagesearch.com/2014/11/17/non-maximum-suppression-object-detection-python/)
+
+This is a class of algorithms to select one entity out of many overlapping entities. The criteria commonly used to achieve this are some forms of probabilites and overlap measures (such as IoU - Intersection Over Union).
+
+## Intersection Over Union (IoU)
+
+The idead of IoU is from [Jaccard Index](https://en.wikipedia.org/wiki/Jaccard_index). The Jaccard Index is defined as $J(A, B) = \frac{|A |}{}$
+
+
