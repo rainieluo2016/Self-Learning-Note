@@ -13,9 +13,12 @@ This the repositiory for learning notes and interesting paper.
 ## Clustering
 
 + Spectral Clustering
+  + [Online Course - WS 2020/2021 Algorithmic Spectral Graph Theory](http://www.math.uni-konstanz.de/~schweigh/lehre-.html)
   + [Paper - Spectral Feature Selection for Supervised and Unsupervised Learning](https://www.public.asu.edu/~huanliu/papers/icml07.pdf)
   + [Paper - Unsupervised Feature Selection Method for Mixed Data ](https://ccc.inaoep.mx/archivos/CCC-19-005.pdf)
     + [github repository](https://github.com/vineetpmoorty/mixed-sfs)
+
+## Feature Selection
 + skfeature by Arizon State University
   + [FEATURE SELECTION ALGORITHMS](https://jundongl.github.io/scikit-feature/algorithms.html)
   + [github repository](https://github.com/jundongl/scikit-feature)
