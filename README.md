@@ -4,6 +4,8 @@ This the repositiory for learning notes and interesting paper.
 
 ## Deep Learning
 
++ CNN
+  + [Blog - Type of Convolutions](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d) 
 + Object Detection
   + [Non Maximum Suppression Self Note](https://github.com/rainieluo2016/Self-Learning-Note/blob/main/NMS.ipynb)
   + [Blog with Code - Mask Detection using YOLOv5](https://towardsdatascience.com/mask-detection-using-yolov5-ae40979227a6)
