@@ -9,6 +9,9 @@ This the repositiory for learning notes and interesting paper.
   + [Blog with Code - Mask Detection using YOLOv5](https://towardsdatascience.com/mask-detection-using-yolov5-ae40979227a6)
   + [Blog with Code - Object detection: Bounding box regression with Keras, TensorFlow, and Deep Learning](https://pyimagesearch.com/2020/10/05/object-detection-bounding-box-regression-with-keras-tensorflow-and-deep-learning/?_ga=2.9263677.969776580.1645318152-983100340.1645069619)
   + [Blog with Code - Multi-class object detection and bounding box regression with Keras, TensorFlow, and Deep Learning](https://pyimagesearch.com/2020/10/12/multi-class-object-detection-and-bounding-box-regression-with-keras-tensorflow-and-deep-learning/?_ga=2.9263677.969776580.1645318152-983100340.1645069619)
++ Image Deblur
+  + [Blog with Code - GAN with Keras: Application to Image Deblurring](https://medium.com/sicara/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5)
+  + [Paper - DeblurGAN: Blind Motion Deblurring Using Conditional Adversarial Networks](https://arxiv.org/abs/1711.07064)
 
 ## Clustering
 
