@@ -6,6 +6,8 @@ This the repositiory for learning notes and interesting paper.
 
 + Optimizer
   + [An overview of gradient descent optimization algorithms](https://ruder.io/optimizing-gradient-descent/) 
++ Transformers
+  + [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/pdf/2103.14030v2.pdf)
 + CNN
   + [Blog - Type of Convolutions](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d) 
 + Object Detection
@@ -16,6 +18,8 @@ This the repositiory for learning notes and interesting paper.
 + Image Deblur
   + [Blog with Code - GAN with Keras: Application to Image Deblurring](https://medium.com/sicara/keras-generative-adversarial-networks-image-deblurring-45e3ab6977b5)
   + [Paper - DeblurGAN: Blind Motion Deblurring Using Conditional Adversarial Networks](https://arxiv.org/abs/1711.07064)
++ Case Study
+  + [Age Prediction](https://www.aicrowd.com/showcase/stratified-k-fold-image-classification-swin-transformers)
 
 ## Clustering
 
