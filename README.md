@@ -4,6 +4,8 @@ This the repositiory for learning notes and interesting paper.
 
 ## Deep Learning
 
++ Optimizer
+  + [An overview of gradient descent optimization algorithms](https://ruder.io/optimizing-gradient-descent/) 
 + CNN
   + [Blog - Type of Convolutions](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d) 
 + Object Detection
