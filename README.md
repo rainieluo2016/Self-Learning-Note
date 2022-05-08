@@ -21,6 +21,9 @@ This the repositiory for learning notes and interesting paper.
 + Case Study
   + [Age Prediction](https://www.aicrowd.com/showcase/stratified-k-fold-image-classification-swin-transformers)
 
+## Rurrent Models
+ + [Stateless vs Stateful](https://medium.com/@jroessl/lstm-with-keras-4c4db55dd349)
+
 ## Clustering
 
 + Spectral Clustering
