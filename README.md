@@ -41,4 +41,9 @@ This the repositiory for learning notes and interesting paper.
 
 + BBC-CV (Bootstrap Biased Correction Cross Validation)
   + [Paper - Bootstrapping the Out-of-sample Predictions for Efficient and Accurate Cross-Validation - arXiv:1708.07180v2 [cs.LG]](https://arxiv.org/abs/1708.07180)
+
+
+## Open Street Map
++ [tutorial](https://github.com/njanakiev/openstreetmap-data-science)
++ [overpass api](http://overpass-turbo.eu/)
   
