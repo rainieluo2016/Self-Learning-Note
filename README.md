@@ -38,6 +38,8 @@ This the repositiory for learning notes and interesting paper.
   + [github repository](https://github.com/jundongl/scikit-feature)
 
 ## Cross Validation
++ Nested-CV (Nested Cross Validation)
+  + [Nested Cross-Validation — Hyperparameter Optimization and Model Selection](https://towardsdatascience.com/nested-cross-validation-hyperparameter-optimization-and-model-selection-5885d84acda)
 
 + BBC-CV (Bootstrap Biased Correction Cross Validation)
   + [Paper - Bootstrapping the Out-of-sample Predictions for Efficient and Accurate Cross-Validation - arXiv:1708.07180v2 [cs.LG]](https://arxiv.org/abs/1708.07180)
