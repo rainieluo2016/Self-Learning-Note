@@ -39,7 +39,8 @@ This the repositiory for learning notes and interesting paper.
 
 ## Cross Validation
 + Nested-CV (Nested Cross Validation)
-  + [Nested Cross-Validation — Hyperparameter Optimization and Model Selection](https://towardsdatascience.com/nested-cross-validation-hyperparameter-optimization-and-model-selection-5885d84acda)
+  + [Nested Cross-Validation — Hyperparameter Optimization and Model Selection (quick intro)](https://towardsdatascience.com/nested-cross-validation-hyperparameter-optimization-and-model-selection-5885d84acda)
+  + [Nested Cross-Validation for Machine Learning with Python (more detail with hands on)](https://machinelearningmastery.com/nested-cross-validation-for-machine-learning-with-python/)
 
 + BBC-CV (Bootstrap Biased Correction Cross Validation)
   + [Paper - Bootstrapping the Out-of-sample Predictions for Efficient and Accurate Cross-Validation - arXiv:1708.07180v2 [cs.LG]](https://arxiv.org/abs/1708.07180)
