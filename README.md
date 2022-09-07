@@ -2,6 +2,11 @@
 
 This the repositiory for learning notes and interesting paper.
 
+## Boosting
+  + [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf)
+    + Note (see read me)
+    + [Variable Importance Dicussion in Stack Exchange](https://stats.stackexchange.com/questions/162162/relative-variable-importance-for-boosting)
+
 ## Deep Learning
 
 + Optimizer
@@ -44,6 +49,16 @@ This the repositiory for learning notes and interesting paper.
 
 + BBC-CV (Bootstrap Biased Correction Cross Validation)
   + [Paper - Bootstrapping the Out-of-sample Predictions for Efficient and Accurate Cross-Validation - arXiv:1708.07180v2 [cs.LG]](https://arxiv.org/abs/1708.07180)
+
+## Topic Modelling
++ LDA
+  + [Video - Latent Dirichlet Allocation part 1](https://www.youtube.com/watch?v=T05t-SqKArY)
+  + [Video - Latent Dirichlet Allocation part 2](https://www.youtube.com/watch?v=BaM1uiCpj_E)
+
+## Patch Modelling
++ [Spatial Structure in Disease Transmission Models](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7316037/)
++ [A SPATIAL PATCH DYNAMIC MODELING APPROACH TO PATTERN AND PROCESS IN AN ANNUAL GRASSLAND1](http://leml.asu.edu/jingle/Wu-Publications-PDFs/1989-1994/Wu+Levin-1994-A%20spatial%20patch%20dynamic%20modeling%20approach.PDF)
++ [Modelling Epidemics Slides](https://jvanderw.une.edu.au/L5_ModellingEpidemics1.pdf)
 
 
 ## Open Street Map
