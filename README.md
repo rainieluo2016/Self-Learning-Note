@@ -2,6 +2,12 @@
 
 This the repositiory for learning notes and interesting paper.
 
+## Feature Tools
+
++ SHAP
+  + Fadel S. "Explainable Artificial Intelligence: Interpretable Machine Learning." Statistics Canada, [https://www.statcan.gc.ca/en/data-science/network/explainable-learning](https://www.statcan.gc.ca/en/data-science/network/explainable-learning). Accessed 3 Sept. 2024.
+  + [Personal Notes](https://www.notion.so/SHAP-shapley-additive-exPlanations-673e178d55bf434bbafd79964e858465?pvs=4)
+
 ## Boosting
   + [XGBoost: A Scalable Tree Boosting System](https://arxiv.org/pdf/1603.02754.pdf)
     + Note (see read me)
