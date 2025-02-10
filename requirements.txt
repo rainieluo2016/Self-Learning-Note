@@ -1,0 +1,28 @@
+# Machine Learning and Data Science
+pandas<2.0
+numpy
+scikit-learn==1.5.2
+xgboost
+matplotlib
+seaborn
+scipy
+jupyter
+
+# Web Development
+flask
+django
+requests
+beautifulsoup4
+
+
+# Utilities and Networking
+pytest
+argparse
+boto3
+
+# Data Serialization
+pickle
+yaml
+json
+pyarrow
+
