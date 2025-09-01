@@ -47,6 +47,11 @@ class XGBoostScratch:
                 if best_split:
                     left_indices = best_split["left_indices"]
                     right_indices = best_split["right_indices"]
+
+                    # keep building tree for each splited left and right tree until
+                    # still be able to find best split
+                    # and current depth < max depth
+                    # and still enough sample at the child node
                     left_tree = self._build_tree(
                         X[left_indices],
                         y[left_indices],
@@ -65,6 +70,7 @@ class XGBoostScratch:
                         "left": left_tree,
                         "right": right_tree,
                     }
+            # compute the final loss at all final leaf
             leaf_value = self._compute_leaf_value(residuals)
             return {"leaf_value": leaf_value}
 
@@ -72,9 +78,13 @@ class XGBoostScratch:
             """
             find the best split for the current node
             by iterating over all features and its candidate thresholds
+
+            return a dictionary of best split among all features.
+            just return a split of "the best one" feature
             """
             best_split = None
             best_gain = float("-inf")
+            # m samples and n features
             m, n = X.shape
 
             # iterate over all features
@@ -116,12 +126,15 @@ class XGBoostScratch:
             # try to find the convex of the loss function
             # current gain = loss(parent) - (loss(left) + loss(right))
 
-            # theoretically, loss = G^2 / (H + lambda)
+            # theoretically, loss can be estimated with G^2 / (H + lambda)
+            # TODO - check the 2nd order derivative
             # where G is the sum of gradients (1st order derivative)
             # and H is the sum of hessians (2nd order derivative)
 
-            # while the loss function is the squared error loss - (y - y_pred)^2
+            # while the loss function is the squared error loss = (y - y_pred)^2
             # the gradient is the residual and the hessian is 1
+            # Therefore, loss := G^2 / (H + lambda) = sigma[residual] ^ 2 / (n + lambda)
+            # TODO - WHERE IS THE 0.5 COME FROM??
             gain = 0.5 * (
                 (np.sum(left_residuals) ** 2 / (len(left_residuals) + self.reg_lambda))
                 + (
@@ -148,13 +161,19 @@ class XGBoostScratch:
                 return self._predict_one(x, tree["right"])
 
     def fit(self, X, y):
+
+        # start with all 0 for all predictions
         y_pred = np.zeros(len(y))
+        # build n trees based on the n_estimators value given
         for _ in range(self.n_estimators):
+            # calculate the residual from last tree prediction
             residuals = y - y_pred
+            # fit each tree
             tree = self.DecisionTree(
                 self.max_depth, self.min_samples_split, self.reg_lambda
             )
             tree.fit(X, y, residuals)
+            # since learnt on residual - the new y prediction is the aggregation of new tree * learning rate
             y_pred += self.learning_rate * tree.predict(X)
             self.trees.append(tree)
 
